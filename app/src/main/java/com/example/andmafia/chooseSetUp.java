@@ -16,13 +16,14 @@ public class chooseSetUp extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_choose_set_up);
 
-        CardObj co = new CardObj("Doctor");
+       /* CardObj co = new CardObj("Doctor");
         UserObj uo = new UserObj("Moisha",co);
 
         BrainObj bo = new BrainObj();
         UserObj [] boArr = bo.createArrayOfUsers(uo,1);
         TextView tv = (TextView)findViewById(R.id.textView);
-        tv.setText(boArr[0].UserName() + " ты: " +  boArr[0].Co().CardName());
+        tv.setText(boArr[0].UserName() + " ты: " +  boArr[0].Co().CardName());*/
+
     }
 }
 
